@@ -1,0 +1,56 @@
+version: "3.8"
+services:
+  api:
+    build:
+      context: ./api
+    image: flask_api
+    ports:
+      - 5000:5000
+    restart: always
+    environment:
+      FLASK_APP: ${FLASK_APP}
+      FLASK_ENV: ${FLASK_ENV}
+      DATABASE_URL: ${DATABASE_URL}
+    networks:
+      pgflaskapp:
+    volumes:
+      - ./api:/app
+    depends_on:
+      - db
+    command: ["./entrypoint.sh"]
+
+  db:
+    image: postgres:12-alpine
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - postgres-db:/var/lib/postgresql/data
+    networks:
+      pgflaskapp:
+        aliases:
+          - postgres
+
+  client:
+    build:
+      context: ./client
+      target: dev
+    image: react_app
+    volumes:
+      - ./client:/app:delegated
+      - /app/node_modules
+    ports:
+      - 3000:3000
+    environment:
+      - REACT_APP_API_SERVER_BASE_URL=http://host.docker.internal:5000
+    stdin_open: true
+    depends_on:
+      - api
+
+volumes:
+  postgres-db:
+
+networks:
+  pgflaskapp:
+    driver: bridge
