@@ -15,9 +15,10 @@ python3 database.py
 
 
 ## Heroku Commands
-- Add heroku.yml & Dockerfile
-- Swap for gunicorn in entrypoint.sh
-- Commit changes
+- add heroku.yml & Dockerfile
+- swap for gunicorn in entrypoint.sh
+- change Dockerfile build for client 
+- commit changes
 
 ```bash
 heroku create
