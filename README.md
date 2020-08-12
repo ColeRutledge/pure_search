@@ -1,4 +1,4 @@
-# Pure Search
+# PureSearch
 ## appacademy capstone
 
 
