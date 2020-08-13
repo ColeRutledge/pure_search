@@ -10,7 +10,7 @@ psql -U capstone_app -W capstone_db
 ### To populate DB with seeder data:
 ```bash
 docker container exec -it api /bin/sh
-python3 database.py
+python3 db_seed.py
 ```
 
 
