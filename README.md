@@ -1,7 +1,6 @@
 # PureSearch
 ## appacademy capstone
 
-
 ### To gain access to postgres inside container:
 ```bash
 docker container exec -it db /bin/sh
