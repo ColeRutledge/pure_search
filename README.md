@@ -1,6 +1,16 @@
 # PureSearch
 ## appacademy capstone
 
+## REPO LINKS
+  - API - https://github.com/ColeRutledge/api
+  - Client - https://github.com/ColeRutledge/client
+
+## TODOs
+### README.md
+### Live Links
+
+
+
 ### To gain access to postgres inside container:
 ```bash
 docker container exec -it db /bin/sh
