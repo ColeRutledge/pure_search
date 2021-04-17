@@ -1,12 +1,10 @@
 <h2 align='center'>PureSearch</h2>
-<h4 align='center'>PureSearch is a web application to manage the interaction with the job board data collected from <a href='https://github.com/ColeRutledge/indeed_scraping'>this</a> project.</h4>
+<h4 align='center'> 👋 Thanks for checking out my project! This is a web application to visualize job board data collected from Indeed.</h4>
 </br>
 
 ---
 
-</br>
-
-<h3 align='center'>Thanks for checking out my project! 👋</h3>
+<h3 align='center'></h3>
 </br>
 <p>This is the main repo to bridge together my capstone project from App Academy. When I was a recruiter, I had always hoped for a way to automatically aggregate job postings from various markets and funnel them into an interface, so I built one!
 
