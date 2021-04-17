@@ -4,7 +4,6 @@
 ---
 
 <h3 align='center'></h3>
-</br>
 <p>This is the main repo to bridge together my capstone project from App Academy. When I was a recruiter, I had always hoped for a way to automatically aggregate job postings from various markets and funnel them into an interface, so I built one!
 
 This application and web scraper was able to collect more than <b>18 thousand</b> job postings from Indeed.com across seven different geographic markets and four different technologies (Python, JavaScript, Ruby, and Java). After filtering the data through Pandas to wrangle it into something more useful, I was able to extract some really interesting insights into the current US tech market (avg salaries per geographic market, highest salaries per technology, technology with most job volume, etc) This is data that I could have only dreamed of having while recruiting in the competitive NYC tech market.
