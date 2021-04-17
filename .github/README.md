@@ -23,7 +23,7 @@ The project is comprised of several repositories linked here: </p>
     <li>Combining Selenium, Pandas, and Beautiful Soup to scrape data that powers interesting and useful applications is a very exciting! This project is immediately valuable to me as I enter into my first job search as a developer, and I think that's cool! 😎</li>
     <li>Filtering data in a performant way is tricky.</li>
     <li>I really enjoyed building a small pipeline of data but have a lot of room for improvement and automation! In the months following the bootcamp, I've created a small project that containerizes Selenium and runs Chrome Driver headlessly on my virtual private server and would like to use it to automate this part of the process. That would be next on the list.</li>
-    <li>Pandas is an incredible! My wife is a financial analyst and used to work in excel all day. She now uses Python and Pandas because of this project. 🚀</li>
+    <li>Pandas is an incredible! My wife is a financial analyst and used to work in excel all day. She now uses Python and Pandas <b>every day</b> because of this project. 🚀</li>
     <li>I do love JavaScript, but Python just feels better. ¯\_(ツ)_/¯</li>
 </ul>
 
