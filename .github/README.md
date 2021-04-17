@@ -1,6 +1,5 @@
 <h2 align='center'>PureSearch</h2>
 <h4 align='center'> 👋 Thanks for checking out my project! This is a web application to visualize job board data collected from Indeed.</h4>
-</br>
 
 ---
 
