@@ -26,8 +26,6 @@ The project is comprised of several repositories linked here: </p>
     <li>I do love JavaScript, but Python just feels better. ¯\_(ツ)_/¯</li>
 </ul>
 
-</br>
-
 ---
 
 <p style="margin-top: 5%" align='center'>
